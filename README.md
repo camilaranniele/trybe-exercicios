@@ -41,7 +41,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 5-7: Projeto - Adivinhe a Cor
 - [ ] 5-7: Projeto - Carta Misteriosa
 
-**Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+**Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo**
 - [ ] 6-1: HTML e CSS - Forms
 - [ ] 6-2: Bibliotecas JavaScript e Frameworks CSS
 - [ ] 6-3: CSS Flexbox - Part 1
@@ -49,7 +49,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 6-5: CSS Responsivo - Mobile First
 - [ ] 6-6: Projeto - Trybewarts
 
-**Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+**Bloco 7: Introdução à JavaScript ES6 e Testes Unitários**
 - [ ] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 7-2: JavaScript ES6 - Objects
 - [ ] 7-3: Testes unitários em JavaScript
