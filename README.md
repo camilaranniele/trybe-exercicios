@@ -75,4 +75,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 10-4: Projeto - Jest Assíncrono e Mocking
 
 
-
+## Desenvolvimento Front-end ⏳
+**Bloco 11: Introdução - React**
+- [ ] 11-1: Introdução Front-end e React 
