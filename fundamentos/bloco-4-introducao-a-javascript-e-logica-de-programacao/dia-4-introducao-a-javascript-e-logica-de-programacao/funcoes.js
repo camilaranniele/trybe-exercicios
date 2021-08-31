@@ -84,4 +84,18 @@
 // console.log(sum(number));
 
 
-////// Exercício 7 ///////
+////// Exercício 7 /////// problema: como retornar o false ?
+
+function confira (word, ending){
+    let novaPalavra = word.substring(1); 
+    for (let i = 1; i <= novaPalavra.length; i += 1 ){
+        let novaPalavra = word.substring(i);
+        if (novaPalavra === ending){
+            return true
+        }
+    }
+}
+
+let palavra = "camila";
+let fim = "mila";
+console.log(confira(palavra,fim));
