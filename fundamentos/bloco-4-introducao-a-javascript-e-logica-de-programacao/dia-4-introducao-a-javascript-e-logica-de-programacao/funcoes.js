@@ -86,16 +86,39 @@
 
 ////// Exercício 7 /////// problema: como retornar o false ?
 
-function confira (word, ending){
-    let novaPalavra = word.substring(1); 
-    for (let i = 1; i <= novaPalavra.length; i += 1 ){
-        let novaPalavra = word.substring(i);
-        if (novaPalavra === ending){
-            return true
+// function confira (word, ending){
+//     let novaPalavra = word.substring(1); 
+//     for (let i = 1; i <= novaPalavra.length; i += 1 ){
+//         let novaPalavra = word.substring(i);
+//         if (novaPalavra === ending){
+//             return true
+//         }
+//     }
+// }
+
+// let palavra = "camila";
+// let fim = "mila";
+// console.log(confira(palavra,fim));
+
+
+function highestCount(arr){
+    let highestNumber = arr[0];
+    let sum = 1;
+    for (let index = 1; index < arr.length; index += 1){
+        if (arr[index] > highestNumber){
+            
+            highestNumber = arr[index];
+            
+            sum = 0;
+            
+            sum += 1;
+            
+        }else if ( arr[index] === highestNumber){
+            sum += 1;
         }
     }
+    return sum
 }
 
-let palavra = "camila";
-let fim = "mila";
-console.log(confira(palavra,fim));
+let array =  [0, 0, 0];
+console.log(highestCount(array));
