@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script>
+        // COLOQUE SEU CÓDIGO AQUI
+        // Primeiro exercício
+        let bodys = document.querySelector('body');
+        let elementH1 = document.createElement('h1');
+        elementH1.innerHTML = "Exercício 5.2 - JavaScript DOM";
+        bodys.appendChild(elementH1);
+
+        // Segundo Exercício
+        let elementMain = document.createElement('main');
+        elementMain.className = 'main-content';
+        bodys.appendChild(elementMain);
+
+        // Terceiro Exercício
+        let elementSection = document.createElement('section');
+        elementSection.className = 'center-content';
+        elementMain.appendChild(elementSection);
+        
+        // Quarto Exercício
+        let elementP = document.createElement('p');
+        elementP.innerHTML = 'Oi, eu sou a Camila';
+        elementSection.appendChild(elementP);
+        
+
+        //Quinto Exercício
+        let elementLeftSection = document.createElement('section');
+        elementLeftSection.className = 'left-content';
+        elementMain.appendChild(elementLeftSection);
+
+        // Sexto Exercício
+        let elementRightSection = document.createElement('section');
+        elementRightSection.className = 'right-content';
+        elementMain.appendChild(elementRightSection);
+
+
+        // Sétimo Exercício
+        let elementImg = document.createElement('img');
+        elementImg.className = 'small-image';
+        elementImg.src = 'https://picsum.photos/200';
+        elementLeftSection.appendChild(elementImg);
+
+        //Oitavo exercício 
+        let elementUl = document.createElement('ul');
+        elementRightSection.appendChild(elementUl);
+        let list = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+        for (let index = 0; index < list.length; index += 1) {
+            let number = list[index];
+            let listElement = document.createElement('li');
+            listElement.innerHTML = number;
+            elementUl.appendChild(listElement);
+        }
+
+        // Nono exercício
+        for (let index = 1; index <= 3; index += 1) {
+            let elementH3 = document.createElement('h3');
+            elementMain.appendChild(elementH3);
+        }
+
+
+
+        // SEGUNDA PARTE
+        // 1
+        elementH1.className = 'title';
+
+        //2
+        let elementsH3 = document.getElementsByTagName('h3')
+        for (let index = 0; index < 3; index +=1) {
+            elementsH3[index].className = 'description';
+        }
+
+        // 3
+        elementMain.removeChild(elementLeftSection);
+
+        // 4
+        elementRightSection.style.marginRight = 'auto';
+
+        // 5
+        elementSection.parentNode.style.backgroundColor = 'green';
+
+        // 6
+        elementUl.lastChild.remove();
+        elementUl.lastChild.remove();
+    </script>
+  </body>
+</html>
