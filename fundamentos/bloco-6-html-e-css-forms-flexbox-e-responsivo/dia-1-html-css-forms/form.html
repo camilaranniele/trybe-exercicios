@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms currículo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="input-name">Nome: </label>
+    <input type="text" name="name" id="input-name" maxlength="40" required>
+    <br>
+    <br>
+
+    <label for="input-email">Email: </label>
+    <input type="email" name="email" id="input-email" max="50" required> 
+    <br>
+    <br>
+
+    <label for="input-cpf">CPF: </label>
+    <input type="text" name="CPF" id="input-cpf" maxlength="11" required>
+    <br>
+    <br>
+
+    <label for="input-addres">Endereço: </label>
+    <input type="text" name="endereço" id="input-addres" maxlength="200" required>
+    <br>
+    <br>
+
+    <label for="input-city">Cidade: </label>
+    <input type="text" name="cidade" id="input-city" maxlength="28" required>
+    <br>
+    <br>
+
+    <label for="select-state">Endereço: </label>
+    <select name="states" id="select-state" required></select>
+  </label>
+    <br>
+    <br>
+    
+    <label for="input-type">Tipo:
+      <br>
+      <input type="radio" name="type" id="input-type" required>Casa
+      <br>
+      <input type="radio" name="type" required id="input-type">Apartamento
+    </label>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Último emprego</legend>
+    <label for="input-resum">Resumo do currículo</label>
+    <br>
+    <textarea name="resum" id="input-resum" cols="30" rows="10" maxlength="1000"></textarea>
+    <br>
+    <br>
+
+    <label for="input-office">Cargo</label>
+    <input type="text" name="office" id="input-office">
+  </fieldset>
+</body>
+<script src="script.js"></script>
+</html>
