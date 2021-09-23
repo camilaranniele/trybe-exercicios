@@ -1,0 +1,53 @@
+body {
+  font-size: xx-large;
+  margin: 30px;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  
+}
+
+img {
+  margin-top: 70px;
+  max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: rgb(235, 244, 247);
+    font-size: large;
+    margin: 80px;
+  }
+
+  h1 {
+    font-size: xxx-large;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  figure {
+    margin-right: 10px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    width: auto;
+    
+    
+  }
+
+}
