@@ -58,7 +58,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 **Bloco 8: Higher Order Functions do JavaScript ES6**
 - [x] 8-1: JavaScript ES6 - Introdução a Higher Order Functions 
 - [x] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort
-- [ ] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
 - [ ] 8-4: JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8-5: JavaScript ES6 - spread operator, parameter rest, destructuring e mais
 - [ ] 8-6: Projeto - Zoo functions
