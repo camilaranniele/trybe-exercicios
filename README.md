@@ -6,7 +6,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Introdução - Desenvolvimento Web ⏳
+## Introdução - Desenvolvimento Web ✔️
 **Bloco 1: Introdução - Unix & Shell**
 - [x] 1-3: Unix & Bash - Part 1
 - [x] 1-4: Unix & Bash - Part 2
@@ -64,22 +64,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 8-6: Projeto - Zoo functions
 
 **Bloco 9: JavaScript Assíncrono e Promises**
-- [ ] 9-1: JavaScript Assíncrono e Callbacks
-- [ ] 9-2: JavaScript Promises
-- [ ] 9-3: Projeto - Carrinho de Compras
-
-**Bloco 10: Testes automatizados com Jest**
-- [ ] 10-1: Primeiros passos no Jest
-- [ ] 10-2: Jest - Testes Assíncronos
-- [ ] 10-3: Jest - Simulando comportamentos
-- [ ] 10-4: Projeto - Jest Assíncrono e Mocking
+- [x] 9-1: JavaScript Assíncrono e Callbacks
+- [x] 9-2: JavaScript Assíncrono - Fetch API e async/await
+- [x] 9-3: Jest- Testes Assíncronos
+- [x] 9-4: Projeto - Carrinho de Compras
 
 
 ## Desenvolvimento Front-end ⏳
 **Bloco 11: Introdução - React**
 - [ ] 11-1: Introdução Front-end e React 
 - [ ] 11-2: Componentes React
-- [ ] 11-3: Projeto - Movie Cards Libray
+- [ ] 11-3: Projeto - Sistema Solar
 
 **Bloco 12: Componentes com Estado, Eventos e Formulários com React**
 - [ ] 12-1: Componentes com estados e eventos
